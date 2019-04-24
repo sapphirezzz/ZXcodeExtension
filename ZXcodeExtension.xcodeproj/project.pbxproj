@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1400BC992270316500DD499A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400BC982270316500DD499A /* AppDelegate.swift */; };
+		1400BC9B2270316600DD499A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1400BC9A2270316600DD499A /* Assets.xcassets */; };
+		1400BC9E2270316600DD499A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1400BC9C2270316600DD499A /* MainMenu.xib */; };
+		1400BCAD2270320400DD499A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1400BCAC2270320400DD499A /* Cocoa.framework */; };
+		1400BCB02270320400DD499A /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400BCAF2270320400DD499A /* SourceEditorExtension.swift */; };
+		1400BCB22270320400DD499A /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400BCB12270320400DD499A /* SourceEditorCommand.swift */; };
+		1400BCB72270320400DD499A /* ZExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1400BCAA2270320400DD499A /* ZExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1400BCB52270320400DD499A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1400BC8D2270316500DD499A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1400BCA92270320400DD499A;
+			remoteInfo = ZExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1400BCBB2270320500DD499A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1400BCB72270320400DD499A /* ZExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1400BC952270316500DD499A /* ZXcodeExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXcodeExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1400BC982270316500DD499A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1400BC9A2270316600DD499A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1400BC9D2270316600DD499A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1400BC9F2270316600DD499A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1400BCA02270316600DD499A /* ZXcodeExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZXcodeExtension.entitlements; sourceTree = "<group>"; };
+		1400BCAA2270320400DD499A /* ZExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1400BCAC2270320400DD499A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1400BCAF2270320400DD499A /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		1400BCB12270320400DD499A /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		1400BCB32270320400DD499A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1400BCB42270320400DD499A /* ZExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1400BC922270316500DD499A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1400BCA72270320400DD499A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1400BCAD2270320400DD499A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1400BC8C2270316500DD499A = {
+			isa = PBXGroup;
+			children = (
+				1400BC972270316500DD499A /* ZXcodeExtension */,
+				1400BCAE2270320400DD499A /* ZExtension */,
+				1400BCAB2270320400DD499A /* Frameworks */,
+				1400BC962270316500DD499A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1400BC962270316500DD499A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1400BC952270316500DD499A /* ZXcodeExtension.app */,
+				1400BCAA2270320400DD499A /* ZExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1400BC972270316500DD499A /* ZXcodeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1400BC982270316500DD499A /* AppDelegate.swift */,
+				1400BC9A2270316600DD499A /* Assets.xcassets */,
+				1400BC9C2270316600DD499A /* MainMenu.xib */,
+				1400BC9F2270316600DD499A /* Info.plist */,
+				1400BCA02270316600DD499A /* ZXcodeExtension.entitlements */,
+			);
+			path = ZXcodeExtension;
+			sourceTree = "<group>";
+		};
+		1400BCAB2270320400DD499A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1400BCAC2270320400DD499A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1400BCAE2270320400DD499A /* ZExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1400BCAF2270320400DD499A /* SourceEditorExtension.swift */,
+				1400BCB12270320400DD499A /* SourceEditorCommand.swift */,
+				1400BCB32270320400DD499A /* Info.plist */,
+				1400BCB42270320400DD499A /* ZExtension.entitlements */,
+			);
+			path = ZExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1400BC942270316500DD499A /* ZXcodeExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1400BCA32270316600DD499A /* Build configuration list for PBXNativeTarget "ZXcodeExtension" */;
+			buildPhases = (
+				1400BC912270316500DD499A /* Sources */,
+				1400BC922270316500DD499A /* Frameworks */,
+				1400BC932270316500DD499A /* Resources */,
+				1400BCBB2270320500DD499A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1400BCB62270320400DD499A /* PBXTargetDependency */,
+			);
+			name = ZXcodeExtension;
+			productName = ZXcodeExtension;
+			productReference = 1400BC952270316500DD499A /* ZXcodeExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1400BCA92270320400DD499A /* ZExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1400BCB82270320500DD499A /* Build configuration list for PBXNativeTarget "ZExtension" */;
+			buildPhases = (
+				1400BCA62270320400DD499A /* Sources */,
+				1400BCA72270320400DD499A /* Frameworks */,
+				1400BCA82270320400DD499A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZExtension;
+			productName = ZExtension;
+			productReference = 1400BCAA2270320400DD499A /* ZExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1400BC8D2270316500DD499A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Zack･Zheng";
+				TargetAttributes = {
+					1400BC942270316500DD499A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1400BCA92270320400DD499A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1400BC902270316500DD499A /* Build configuration list for PBXProject "ZXcodeExtension" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1400BC8C2270316500DD499A;
+			productRefGroup = 1400BC962270316500DD499A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1400BC942270316500DD499A /* ZXcodeExtension */,
+				1400BCA92270320400DD499A /* ZExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1400BC932270316500DD499A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1400BC9B2270316600DD499A /* Assets.xcassets in Resources */,
+				1400BC9E2270316600DD499A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1400BCA82270320400DD499A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1400BC912270316500DD499A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1400BC992270316500DD499A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1400BCA62270320400DD499A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1400BCB02270320400DD499A /* SourceEditorExtension.swift in Sources */,
+				1400BCB22270320400DD499A /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1400BCB62270320400DD499A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1400BCA92270320400DD499A /* ZExtension */;
+			targetProxy = 1400BCB52270320400DD499A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1400BC9C2270316600DD499A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1400BC9D2270316600DD499A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1400BCA12270316600DD499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1400BCA22270316600DD499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1400BCA42270316600DD499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZXcodeExtension/ZXcodeExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RML58CN62D;
+				INFOPLIST_FILE = ZXcodeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiMei.MeiJiaLove.ZXcodeExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1400BCA52270316600DD499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZXcodeExtension/ZXcodeExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RML58CN62D;
+				INFOPLIST_FILE = ZXcodeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiMei.MeiJiaLove.ZXcodeExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1400BCB92270320500DD499A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZExtension/ZExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RML58CN62D;
+				INFOPLIST_FILE = ZExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiMei.MeiJiaLove.ZXcodeExtension.ZExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1400BCBA2270320500DD499A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZExtension/ZExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RML58CN62D;
+				INFOPLIST_FILE = ZExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiMei.MeiJiaLove.ZXcodeExtension.ZExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1400BC902270316500DD499A /* Build configuration list for PBXProject "ZXcodeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1400BCA12270316600DD499A /* Debug */,
+				1400BCA22270316600DD499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1400BCA32270316600DD499A /* Build configuration list for PBXNativeTarget "ZXcodeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1400BCA42270316600DD499A /* Debug */,
+				1400BCA52270316600DD499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1400BCB82270320500DD499A /* Build configuration list for PBXNativeTarget "ZExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1400BCB92270320500DD499A /* Debug */,
+				1400BCBA2270320500DD499A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1400BC8D2270316500DD499A /* Project object */;
+}
